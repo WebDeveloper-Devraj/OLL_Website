@@ -1,0 +1,545 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar */
+.my-nav{
+    display: flex;
+    align-items: center;
+}
+
+#nav-logo{
+    margin-left: 110px;
+}
+
+#OLL-text{
+    margin-left: 8px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#nav-search{
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 1px solid rgb(190, 179, 179);
+    width: 140px;
+    font-size: 14px;
+    height: 35px;
+}
+
+#nav-search-i{
+    position: relative;
+    top:15px;
+    right: 35px;
+}
+
+.msg{
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 650px;
+}
+
+#my-c{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#d-arrow{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+/* red-title */
+.red-title{
+    background-color: rgb(220, 7, 7);
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+}
+
+/* text card */
+.my-card{
+    border: transparent;
+    margin-left: 130px;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(58, 57, 57);
+}
+.text-and-img img{
+    height: 290px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
+    /* margin-left: 350px;
+    margin-top: 5px; */
+}
+#img1{
+    position: relative;
+    left: 350px;
+    top: 5px;
+    z-index: 1;
+}
+#img2{
+    position: relative;
+    left: 165px;
+    top: 30px;
+    height: 230px;
+    z-index: -1;
+    opacity: 0.8;
+}
+#img3{
+    position: relative;
+    left: 20px;
+    top: 55px;
+    height: 190px;
+    z-index: -2;
+    opacity: 0.5;
+}
+
+.my-card p{
+    margin-bottom: -30px;
+}
+
+/* my courses section */
+#m-c-card{
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.courses-card{
+    margin-left: 120px;
+    height: 185px;
+}
+#job-img{
+    height: 165px;
+    width: 165px;
+    border-radius: 5px;
+}
+#c-body{
+    margin-left: -10px;
+}
+.card-title{
+    font-size: 16px;
+    color: rgb(71, 69, 69);
+}
+#c-t-1{
+    margin-top: -9px;
+    margin-bottom: -1px;
+}
+#c-t-2{
+    font-size: 14px;
+    color: rgb(46, 44, 44);
+    font-weight: 700;
+}
+#class-time{
+    color: rgb(117, 112, 112);
+    font-weight: 400;
+}
+#m-card-btn{
+    margin-left: 215px;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgb(220, 7, 7);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* trending now section */
+.trending{
+    margin-left: 120px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.red-div{
+    background-color: rgb(220, 7, 7);
+    width: 38px;
+    height: 9px;
+    border-radius: 8px;
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+#card-group{
+    margin-left: -22px;
+    margin-top: 20px;
+}
+#card-group-individual{
+    margin-left: 15px;
+    border: none;
+}
+#card-group-individual:hover{
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px black;
+    cursor: pointer;
+}
+#card-group-individual-img{
+    padding: 10px;
+}
+.card-group-individual-title{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.card-group-individual-tutor-name a{
+    text-decoration: none;
+    color: rgb(12, 99, 214);
+    font-weight: 500;
+}
+.card-group-individual-tutor-name{
+    margin-bottom: 1px;
+}
+.card-group-individual-icon{
+    color: rgb(207, 197, 6);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.card-group-individual-icon i span{
+    color: rgb(28, 118, 237);
+    font-weight: 600;
+    margin-left: 5px;
+}
+#card-group-individual h5 span{
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 12px;
+    position: relative;
+    bottom: 25px;
+    padding: 5px 8px 5px 8px;
+    box-shadow: 0px 0px 5px rgb(161, 156, 156);
+}
+#verified-img{
+    margin-right: 5px;
+}
+#verified-i{
+    margin-left: 5px;
+    color: green;
+}
+#card-group-individual-no-cls{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(100, 97, 97);
+    margin-bottom: 3px;
+    position: relative;
+    bottom: 25px;
+}
+#card-group-individual-price{
+    color: black;
+    font-weight: 700;
+    margin-left: 15px;
+    position: relative;
+    bottom: 25px;
+}
+/* Performance ready section */
+.Performance{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.red-boxes{
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 140px;
+}
+.red-box{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-border{
+    border: 8px solid red;
+    padding: 8px;
+    border-radius: 25px;
+    transform: rotate(46deg);
+    box-shadow: 5px 0px 20px red;
+}
+.red-lines{
+    width: 140px;
+    justify-content: space-between;
+    margin: 50px -150px 0 -150px ;
+}
+.red-line{
+    height: 3.5px;
+    width: 18px;
+    background-color: red;
+    border-radius: 10px;
+}
+.short-red-line{
+    width: 10px;
+}
+.red-box p{
+    display: inline;
+    font-size: 40px;
+    color: #fff;
+    transform: rotate(-45deg);
+    margin-right: 6px;
+    margin-top: 12px;
+}
+#first-red-box{
+    opacity: 0.45;
+}
+#sec-red-box{
+    opacity: 0.65;
+}
+#third-red-box{
+    opacity: 0.85;
+}
+.boxes-name{
+    justify-content: space-around;
+    margin-left: 37px;
+    margin-top: 80px;
+}
+.box-name{
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+}
+#box-name1{
+    opacity: 0.45;
+    background-color: red;
+}
+#box-name2{
+    opacity: 0.65;
+    background-color: red;
+    position: relative;
+    right: 10px;
+}
+#box-name3{
+    opacity: 0.85;
+    background-color: red;
+    position: relative;
+    right: 15px;
+}
+#box-name4{
+    background-color: red;
+    position: relative;
+    left: 5px;
+}
+
+/* Letest Releases */
+.releases{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.card-group-releases{
+    width: 840px;
+}
+#releases-card-1{
+    position: relative;
+    bottom: 20px;
+}
+#releases-card-2{
+    position: relative;
+    bottom: 20px;
+}
+
+/* Top 1% */
+.educator{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.educators-card{
+    padding-left: 20px;
+    margin-bottom: 80px;
+}
+#card-group-educator{
+    margin-left: 7px;
+    border: 2px solid rgb(230, 226, 226);
+    border-radius: 20px;
+    height: 220px;
+}
+#card-group-educator-5{
+    border-radius: 30px;
+    visibility: hidden;
+}
+.educator-name{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 140px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px black;
+}
+/* evergreen courses */
+.evergreen-card-group{
+    margin-bottom: 50px;
+}
+/* OLL’s Skill Catalog */
+.OLL-catalog{
+    margin-top: 10px;
+}
+.OLL-catalog i{
+    font-size: 38px;
+}
+.OLL-catalog h5 p{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.OLL-catalog-card{
+    border: none;
+}
+.btn-container{
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 502px;
+}
+.OLL-catalog button{
+    border-radius: 20px;
+    border: 1px solid rgb(136, 131, 131);
+    background-color: #fff;
+    margin-bottom: 6px;
+    color: rgb(76, 74, 74);
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.OLL-catalog button:hover{
+    border: 1px solid rgb(10, 161, 221);
+    color: rgb(10, 161, 221);
+}
+
+/* why-oll section */
+.why-oll-card{
+    margin: 25px;
+    width: 310px;
+    text-align: center;
+    border: none;
+}
+.why-oll-card h5{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* featured-in section */
+.featured-in img{
+    width: 190px;
+    margin-left: 20px;
+}
+
+/* what more at OLL section */
+.what-more{
+    margin-top: 35px;
+}
+.what-more-card{
+    border: none;
+    text-align: center;
+}
+.what-more-card h5{
+    font-weight: 700;
+    color: black;
+}
+.what-more-card p{
+    font-size: 14px;
+}
+.what-more-card button{
+    border-radius: 20px;
+    color: rgb(2, 112, 112);
+    border-color: rgb(2, 112, 112);
+    width: 250px;
+    font-weight: 600;
+}
+
+/* footer */
+footer{
+    background-color: rgb(75, 71, 71);
+    height: 550px;
+    margin-top: 60px;
+    color: #fff;
+}
+.footer-head{
+    position: relative;
+    left: 250px;
+    top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-head i{
+    margin-right: 35px;
+    color: #b9afaf;
+    font-size: 40px;
+}
+.footer-lists{
+    position: relative;
+    top: 80px;
+    left: 102px;
+    width: 200px;
+    width: 1200px;
+}
+.footer-list{
+    margin-right: 150px;
+}
+.list-line{
+    background-color: rgb(75, 71, 71);
+    border: none;
+    position: relative;
+    left: 130px;
+    color: #fff;
+    padding: 3px;
+}
+.list-heading{
+    font-weight: 600;
+}
+/* logo-&-logo */
+.logo-and-OLL{
+    width: 220px;
+    height: 45px;
+    position: relative;
+    left: 45%;
+    top: 25%;
+}
+.logo-and-OLL img{
+    margin-top: 5px;
+}
+.OLL-name{
+    margin-left: 15px;
+}
+.OLL-name span{
+    font-weight: 700;
+}
+/* footer logos */
+.footer-logos{
+    width: 350px;
+    color: #a69e9e;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 36%;
+    top: 33%;
+}
+#Copyright{
+    position: relative;
+    left: 40%;
+    top: 38%;
+    font-size: 10px;
+}
