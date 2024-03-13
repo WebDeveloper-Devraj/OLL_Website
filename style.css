@@ -86,6 +86,41 @@
     left: 350px;
     top: 5px;
     z-index: 1;
+    animation: zoom1 10s forwards 0s infinite;
+    height: 290px;
+}
+ @keyframes zoom1 {
+    0%{
+        height: 290px;  
+    }
+    25%{
+        height: 230px;
+        opacity: 0.8;
+        top: 30px;
+        left: 440px;
+        z-index: -1;
+    }
+    50%{
+        height: 230px;
+        opacity: 0.8;
+        top: 30px;
+        left: 440px;
+        z-index: -1;
+    }
+    75%{
+        height: 190px;
+        opacity: 0.5;
+        top: 55px;
+        left: 515px;
+        z-index: -2;
+    }
+    100%{
+        height: 190px;
+        opacity: 0.5;
+        top: 55px;
+        left: 515px;
+        z-index: -2;
+    }
 }
 #img2{
     position: relative;
@@ -94,6 +129,40 @@
     height: 230px;
     z-index: -1;
     opacity: 0.8;
+    animation: zoom2 10s forwards 0s infinite ;
+}
+@keyframes zoom2 {
+    0%{
+        height: 230px;
+    }
+    25%{
+        height: 190px;
+        top: 55px;
+        opacity: 0.5;
+        left: 295px;
+        z-index: -2;
+    }
+    50%{
+        height: 190px;
+        top: 55px;
+        opacity: 0.5;
+        left: 295px;
+        z-index: -2;
+    }
+    75%{
+        height: 290px;
+        top: 5px;
+        opacity: 1;
+        left: 168px;
+        z-index: 1;
+    }
+    100%{
+        height: 290px;
+        top: 5px;
+        opacity: 1;
+        left: 168px;
+        z-index: 1;
+    }
 }
 #img3{
     position: relative;
@@ -102,7 +171,41 @@
     height: 190px;
     z-index: -2;
     opacity: 0.5;
+    animation: zoom3 10s forwards 0s infinite ;
 }
+ @keyframes zoom3 {
+    0%{
+        height: 190px;
+    }
+    25%{
+        height: 290px;
+        top: 5px;
+        left:-50px;
+        opacity: 1;
+        z-index: 1;
+    }
+    50%{
+        height: 290px;
+        top: 5px;
+        left:-50px;
+        opacity: 1;
+        z-index: 1;
+    }
+    75%{
+        height: 230px;
+        top: 30px;
+        left: -15px;
+        opacity: 0.8;
+        z-index: -1;
+    }
+    100%{
+        height: 230px;
+        top: 30px;
+        left: -15px;
+        opacity: 0.8;
+        z-index: -1;
+    }
+ }
 
 .my-card p{
     margin-bottom: -30px;
